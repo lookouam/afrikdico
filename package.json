@@ -1,0 +1,23 @@
+{
+  "name": "afrikdico",
+  "version": "1.0.0",
+  "description": "api for africdico",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com"
+  },
+  "keywords": [
+    "api",
+    "afrik"
+  ],
+  "author": "NC & LK",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.6.4"
+  }
+}
