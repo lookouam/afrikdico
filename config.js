@@ -1,5 +1,5 @@
 const config = {
-    PORT: 5000,
+    PORT: 8080,
     API_BASE_PATH:'/api/v1',
     mongo:{
         url:'',
