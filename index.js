@@ -10,14 +10,7 @@ app.get(`${config.API_BASE_PATH}`, (req, res) => {
 })
 
 app.get(`${config.API_BASE_PATH}/test`, (req, res) => {
-    client.connect(err => {
-        if (err) throw err;
-        const collection = client.db("afrikdico").collection("languages");
-        collection.findOne({}, function(err, result) {
-            if (err) throw err;
-            console.log(result.name);
-          });
-      });
+      findAll(config.mongo.database, "languages");
       res.send('connection réussie' )
   })
 
